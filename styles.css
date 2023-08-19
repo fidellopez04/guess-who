@@ -7,3 +7,18 @@ body {
 span{
     color:black;
 }
+img {
+    width: 100%;
+}
+.header {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
